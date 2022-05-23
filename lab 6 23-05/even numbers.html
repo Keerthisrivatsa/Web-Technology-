@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Find Even numbers in Array using JavaScript</title>
+</head>
+<body>
+    <script>
+        var inputarray= [];
+var size=prompt("enter size");
+for(var i=0;i<size;i++)
+{
+inputarray[i]=prompt('enter element' + (i+1));
+}
+document.write("even elements in array: ")
+        for (var i = 0; i <=size; i++) {
+            if (inputarray[i]% 2 === 0) {
+                document.writeln(" "+inputarray[i]);
+            }
+        }
+</script>
+</body>
+</html>
